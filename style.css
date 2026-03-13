@@ -1,0 +1,121 @@
+header {
+  display: flex;
+  
+
+}
+header h1 { 
+  display: flex;
+  padding-left: 10px;
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: #1D3557;
+}
+
+header nav ul {
+  list-style: none; 
+  display: flex;  
+  gap: 50px;
+  margin-left: 350px;
+}
+
+
+header nav a {
+  text-decoration: none;
+  font-size: 30px;
+  color: #1D3557;
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+header nav a:hover{
+  color: #E63946;
+}
+
+.homeSection{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.homeInsideSection{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.aboutMe{
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  color: #1D3557;
+  font-size: 30px;
+}
+#swe{
+  color: #E63946;
+}
+
+#githubButton a{
+  text-decoration: none;
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  color: white;
+  font-size: 20px;
+}
+#githubButton a:hover{
+  color: #E63946;
+}
+
+#githubButton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1D3557;
+  width: 150px;
+  height: 40px;
+  border-radius: 50px;
+}
+#gitIcon{
+  margin-right: 10px;
+}
+
+#emailButton a{
+  text-decoration: none;
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  color: white;
+  font-size: 20px;
+}
+#emailButton a:hover{
+  color: #E63946;
+}
+
+#emailButton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1D3557;
+  width: 150px;
+  height: 35px;
+  border-radius: 50px;
+}
+
+#emailIcon{
+  margin-right: 10px;
+}
+
+.eduSection{
+  background-color: beige;
+}

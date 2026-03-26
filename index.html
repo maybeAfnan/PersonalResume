@@ -10,23 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-    <script>
-    const burger = document.getElementById('burgerBtn');
-    const navList = document.querySelector('header nav ul');
     
-    burger.addEventListener('click', () => {
-            navList.classList.toggle('open');
-        }
-    );
-    
-    navList.querySelectorAll('a').forEach(link => {
-            link.addEventListener('click', () => {
-                navList.classList.remove('open');
-                }
-            );
-        }
-    );
-</script>
 <body>
     <header>
         <img id="myLogo" src="assets/myLogo.PNG" alt="MyLogoPic">
@@ -150,6 +134,22 @@
 
         </section>
     </main>
-
+    <script>
+        const burger = document.getElementById('burgerBtn');
+        const navList = document.querySelector('header nav ul');
+        
+        burger.addEventListener('click', () => {
+                navList.classList.toggle('open');
+            }
+        );
+        
+        navList.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', () => {
+                    navList.classList.remove('open');
+                    }
+                );
+            }
+        );
+    </script>
 </body>
 </html>
